@@ -1,3 +1,8 @@
 cache
 home
-workspace
+!workspace/
+workspace/*
+!workspace/rpi-build/
+workspace/rpi-build/*
+!workspace/rpi-build/conf
+!workspace/rpi-build/conf/*
