@@ -6,3 +6,6 @@ workspace/*
 workspace/rpi-build/*
 !workspace/rpi-build/conf
 !workspace/rpi-build/conf/*
+!workspace/sources
+!workspace/sources/meta-hubshuffle
+!workspace/sources/meta-hubshuffle/*
