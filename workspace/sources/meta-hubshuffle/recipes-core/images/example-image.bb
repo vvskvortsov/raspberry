@@ -5,7 +5,7 @@ require recipes-core/images/core-image-base.bb
 COMPATIBLE_MACHINE = "^rpi$"
 
 #Install i2c tools
-IMAGE_INSTALL += "i2c-tools"
+IMAGE_INSTALL_append = "i2c-tools "
 
 #Install vim
-IMAGE_INSTALL += "vim"
+IMAGE_INSTALL_append += "vim"
