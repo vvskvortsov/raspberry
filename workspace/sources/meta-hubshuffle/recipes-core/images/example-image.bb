@@ -53,3 +53,6 @@ IMAGE_INSTALL_append += "networkmanager networkmanager-nmtui networkmanager-bash
 #install cpp hello world - sources version
 IMAGE_INSTALL_append += "hello-world-cpp-sources "
 
+#install cpp hello world - makefile version
+IMAGE_INSTALL_append += "hello-world-cpp-makefile "
+
