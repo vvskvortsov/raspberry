@@ -15,6 +15,7 @@ LIC_FILES_CHKSUM = ""
 SRC_URI = "\
 git://github.com/hubshuffle/python-flask-hello-world.git;protocol=https \
 file://python-flask-hello-world.service \
+file://0001-change-port-to-7777.patch \
 "
 
 # Modify these as desired
