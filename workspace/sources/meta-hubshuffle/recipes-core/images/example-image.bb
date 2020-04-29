@@ -48,3 +48,8 @@ IMAGE_INSTALL_append += "tzdata tzdata-europe "
 
 #install network-manager
 IMAGE_INSTALL_append += "networkmanager networkmanager-nmtui networkmanager-bash-completion "
+
+
+#install cpp hello world - sources version
+IMAGE_INSTALL_append += "hello-world-cpp-sources "
+
