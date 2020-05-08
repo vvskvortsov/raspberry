@@ -59,3 +59,7 @@ IMAGE_INSTALL_append += "hello-world-cpp-makefile "
 #install python flask hello world
 IMAGE_INSTALL_append += "python-flask-hello-world "
 
+
+#install cmake-hello-world-cpp
+IMAGE_INSTALL_append += "cmake-hello-world "
+
