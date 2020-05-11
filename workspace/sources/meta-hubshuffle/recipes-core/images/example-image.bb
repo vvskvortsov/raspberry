@@ -63,3 +63,6 @@ IMAGE_INSTALL_append += "python-flask-hello-world "
 #install cmake-hello-world-cpp
 IMAGE_INSTALL_append += "cmake-hello-world "
 
+#install qt5 cinematicexperience example
+IMAGE_INSTALL_append += "cinematicexperience "
+
