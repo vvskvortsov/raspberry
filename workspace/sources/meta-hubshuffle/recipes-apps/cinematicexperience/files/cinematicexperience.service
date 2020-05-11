@@ -1,0 +1,14 @@
+[Unit]
+Description=QT cinematic experience loader
+
+[Service]
+Type=simple
+Restart=no
+StandartOutput=syslog
+StandartError=syslog
+Environment=QT_QPA_PLATFORM=eglfs
+ExecStart=/usr/share/cinematicexperience-1.0/Qt5_CinematicExperience
+
+[Install]
+WantedBy=multi-user.target
+
